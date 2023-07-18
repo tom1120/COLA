@@ -11,7 +11,7 @@ import org.springframework.stereotype.Component;
  * @date 2019-01-04 11:05 AM
  */
 @Component
-public class DomainEventPublisher{
+public class  DomainEventPublisher{
 
     public void publish(Object domainEvent) {
         //eventBus.fire(domainEvent);

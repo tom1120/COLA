@@ -15,6 +15,8 @@ public class MetricConvertor{
         metricDO.setMainMetric(metricItem.getSubMetric().getParent().getCode());
         metricDO.setSubMetric(metricItem.getSubMetric().getCode());
         metricDO.setMetricItem(metricItem.toJsonString());
+        metricDO.setCreator("admin");
+        metricDO.setModifier("admin");
         return metricDO;
     }
 
